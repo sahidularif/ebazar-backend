@@ -22,7 +22,7 @@ app.use('/auth', routes);
 app.use('/product', productRoute);
 
 app.get("/", (req, res) => {
-    res.json({ message: e })
+    res.json({ message: 'Welcome' })
 });
 
 // default error handler
